@@ -1,0 +1,8 @@
+flask
+flask_sqlalchemy
+requests
+quandl
+pandas
+sqlalchemy
+pymysql
+gunicorn
