@@ -60,7 +60,7 @@ function plot(names) {
     var seriesCounter = 0;
 
     $.each(names, function (i, name) {
-        $.getJSON('https://www.quandl.com/api/v3/datasets/WIKI/' + name + `.json?start_date=2016-10-01&end_date=2018-04-20&api_key=${apiKey}`,
+        $.getJSON('https://www.quandl.com/api/v3/datasets/WIKI/' + name + `.json?start_date=2010-10-01&end_date=2019-10-20&api_key=${apiKey}`,
             function (data) {
 
                 var result = [],

@@ -41,7 +41,7 @@ class tickers(Base):
 
 def stockgetter(stockticker):
     #session = Session(bind=engine)
-    tickerprep = "WIKI/" + stockticker  
+    tickerprep = "WIKI/" + "GOOG"  
     mydata = quandl.get(tickerprep)
     #,start_date="2018-01-1"
     #, end_date="2018-11-30"
